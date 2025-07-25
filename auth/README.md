@@ -1,28 +1,33 @@
-# 🚀 Login Page FastAPI Project
+#  Login Page for VFXB
 
-This project implements a **simple and secure login API** using **FastAPI**, structured with the **Single Responsibility Principle (SRP)** for maintainability and scalability.
-
----
-
-## 📁 **Project Structure**
-
+Login page implemented using FAST API using a business logic to seperate subscription models
 
 ---
 
-## ✅ **Features**
+##  **Project Structure**
+app
+    api
+    database
+    models
+    repos
+    schemas
+    security
+    services
+
+---
+
+##  **Features**
 
 - **User login endpoint** with JSON input validation  
-- **Password hashing** for secure authentication  
-- **JWT token generation** for session management  
-- **Clean codebase** with single responsibility modules
-
+    Implemented endpoints
+        - Create User
+        - Get User
+        - Update User
 ---
 
-## 💻 **Setup Instructions**
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/yourusername/login_fastapi_project.git
-cd login_fastapi_project
+
+
+
 
