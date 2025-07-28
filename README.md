@@ -1,4 +1,4 @@
-# AI Implementation Flask Web Prototype
+# AI Implementation Flask/ FastAPI Web Prototype
 
 This project is a temporary web-based frontend that connects with our Flask-based AI API backend. The goal is to **simulate and visualize the AI responses through a browser** before integrating everything into our final Flutter application.
 
@@ -15,7 +15,7 @@ This project is a temporary web-based frontend that connects with our Flask-base
 
 ## 👥 Team Responsibilities
 
-### 🔹 1. Flask Backend (API Layer)
+### 🔹 1. Flask/Fast Backend (API Layer)
 
 - Create endpoints like:
   - `GET /get-response`
